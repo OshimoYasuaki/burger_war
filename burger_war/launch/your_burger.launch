@@ -6,9 +6,10 @@
 
 
     <!-- sample program node -->
-
-    <node pkg="burger_war" type="randomRun.py" name="randomRun" output="screen"/>
-
+    <include file="$(find burger_navigation)/launch/burger_navigation.launch">
+    </include>
+    <node pkg="burger_war" type="navirun.py" name="randomRun" output="screen">
+    </node>
     <!-- END sample program node -->
 
 
