@@ -113,11 +113,7 @@ class NaviBot():
 	        self.setGoal(0,-0.5,3.1415/2)#マーカを見る
 	        self.setGoal(0,-0.5,3.1415/2)#マーカを見る
 	        self.setGoal(0,-0.5,3.1415/4*3)
-
-      	        self.setGoal(-0.5,0,3.1415/4*3)#d到着
 	        status = 1
-                self.setGoal(-0.5,0,3.1415)
-                self.setGoal(-0.8,0,3.1415)#a到着
 
 
 
